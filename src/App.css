@@ -1,0 +1,43 @@
+
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;;
+  color: black;
+  font-size: 36px;
+
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace;
+  padding: 0;
+
+}
