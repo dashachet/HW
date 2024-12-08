@@ -71,10 +71,18 @@ export function Todolist(props: PropsType) {
 }
 
 
+let props = {
+    name : "dasha",
+    age: 25,
+    lessons: [{title: "1"},{title: "2"}],
+    cat: "Leo", 
+    color: "orange"
 
+}
 
+const {name, age} = props
 
-
+const {cat, color} = props
 
 
 
