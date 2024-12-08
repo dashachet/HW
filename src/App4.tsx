@@ -24,7 +24,7 @@ import { v1 } from 'uuid';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
-function App() {
+function App4() {
 
     let [tasks, setTasks] = useState([
         { id: v1(), title: "HTML&CSS", isDone: true },
@@ -76,7 +76,7 @@ const filteredTasks = () => {
     );
 }
 
-export default App;
+export default App4;
 
 
 
